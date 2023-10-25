@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis&family=Poppins:wght@300;400&family=Roboto+Condensed:wght@300;400&family=Roboto:ital,wght@0,300;1,300&family=Skranji&display=swap");
+body {
+  margin: 0px;
+  box-sizing: border-box;
+  padding: 0px;
+}
+
+.App {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #faf7f2;
+}
+.container_addmovie {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+.container_addmovie h1 {
+  font-size: 24px;
+  font-family: "Poppins";
+  margin-bottom: 30px;
+}
+.container_addmovie input {
+  width: 400px;
+  font-family: "Poppins";
+  border: 1px solid gray;
+  padding: 5px 15px;
+  color: gray;
+}
+.container_addmovie input:focus {
+  outline: none;
+}
+.container_addmovie input:focus::placeholder {
+  color: transparent;
+}
+
+.container_movielist {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+  width: 400px;
+  text-align: center;
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: bolder;
+}
+
+.movie_details {
+  display: flex;
+  background-color: white;
+  width: 400px;
+  gap: 50px;
+  padding: 5px;
+}
+.wrapper_content {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  justify-content: center;
+}
+
+.poster {
+  width: 100px;
+  height: 150px;
+}
+.title {
+  font-family: "Poppins";
+  font-size: large;
+  margin-top: -10px;
+}
+
+.star_wrapper {
+  display: flex;
+  gap: 3px;
+}
+
+.btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 60px;
+  margin-top: 20px;
+}
+.btn_watched {
+  color: #faf7f2;
+  background-color: #9c948a;
+  border: none;
+  padding: 5px 10px;
+}
+.btn_delete {
+  /* background-color: #ff4133;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px; */
+  border: none;
+  background-color: transparent;
+}
